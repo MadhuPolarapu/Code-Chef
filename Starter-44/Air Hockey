@@ -1,0 +1,8 @@
+for t in range(int(input())):
+    a,b=map(int,input().split())
+    if a==b==0:
+        print('7')
+    elif a>b:
+        print(7-a)
+    else:
+        print(7-b)
