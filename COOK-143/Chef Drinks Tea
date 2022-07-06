@@ -1,0 +1,8 @@
+import math
+for t in range(int(input())):
+    x,y,z=map(int,input().split())
+    if x//y==0:
+        print(z)
+    else:
+        a=math.ceil(x/y)
+        print(a*z)
