@@ -1,0 +1,8 @@
+import math
+for t in range(int(input())):
+    x=int(input())
+    if x%3==0:
+        print(0)
+    else:
+        a=math.ceil(x/3)
+        print((a*3)-x)
