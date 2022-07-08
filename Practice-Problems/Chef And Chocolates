@@ -1,0 +1,6 @@
+for t in range(int(input())):
+    a,b,c=map(int,input().split())
+    x=a*5
+    y=b*10
+    m=x+y
+    print(m//c)
