@@ -1,0 +1,8 @@
+for t in range(int(input())):
+    a,b=map(int,input().split())
+    l=[]
+    x=(3*a)
+    y=(2*b)
+    l.append(x)
+    l.append(y)
+    print(min(l))
