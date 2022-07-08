@@ -1,0 +1,7 @@
+for t in range(int(input())):
+    a,x=map(int,input().split())
+    b=a+200
+    if x>=a and x<=b:
+        print("YES")
+    else:
+        print("NO")
