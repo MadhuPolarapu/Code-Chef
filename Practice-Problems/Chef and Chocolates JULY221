@@ -1,0 +1,8 @@
+import math
+for t in range(int(input())):
+    a,b=map(int,input().split())
+    c=a-b
+    if b>=a:
+        print("0")
+    elif a>b:
+        print(math.ceil(c/4))
