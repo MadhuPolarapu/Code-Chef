@@ -1,0 +1,15 @@
+for t in range(int(input())):
+    n=int(input())
+    s=str(input())
+    vowels='aeiou'
+    c=0
+    for i in s:
+        if i not in vowels:
+            c+=1 
+            if(c==4):
+                print("NO")
+                break
+        elif(c<=3 and i in vowels):
+            c=0
+    if(c<=3):
+        print("YES")
