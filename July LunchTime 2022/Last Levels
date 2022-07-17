@@ -1,0 +1,10 @@
+import math
+for t in range(int(input())):
+    a,b,c=map(int,input().split())
+    if a>3:
+        y=math.ceil(a/3)-1
+    else:
+        y=0
+    x=a*b
+    z=y*c
+    print(x+z)
