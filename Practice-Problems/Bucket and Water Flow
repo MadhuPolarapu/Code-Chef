@@ -1,0 +1,8 @@
+for t in range(int(input())):
+    a,b,c,d=map(int,input().split())
+    if (c*d)+a > b:
+        print("overFlow")
+    elif (c*d)+a == b:
+        print("filled")
+    else:
+        print("Unfilled")
