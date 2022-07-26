@@ -1,0 +1,7 @@
+import math
+for t in range(int(input())):
+    a,b=map(int,input().split())
+    if a<=6:
+        print(b)
+    else:
+        print(math.ceil(a/6) * b)
