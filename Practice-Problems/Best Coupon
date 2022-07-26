@@ -1,0 +1,6 @@
+for t in range(int(input())):
+    x=int(input())
+    if x//10 < 100:
+        print("100")
+    else:
+        print(x//10)
