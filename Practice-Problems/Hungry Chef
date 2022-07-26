@@ -1,0 +1,11 @@
+for t in range(int(input())):
+    a,b,c,d=map(int,input().split())
+    x=a*c
+    y=b*c
+    if x>d:
+        print('-1')
+    elif y<=d:
+        print('0',c)
+    else:
+        z=(d-x)//(b-a)
+        print(c-z,z)
