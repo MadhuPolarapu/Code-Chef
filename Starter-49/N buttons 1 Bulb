@@ -1,0 +1,10 @@
+for t in range(int(input())):
+    n=int(input())
+    s1=input()
+    s2=input()
+    c1=s1.count('1')
+    c2=s2.count('1')
+    if c1%2==c2%2:
+        print("1")
+    else:
+        print("0")
