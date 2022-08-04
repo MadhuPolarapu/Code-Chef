@@ -1,0 +1,12 @@
+t = int(input())
+for i in range(t):
+    n,x = map(int,input().split())
+    if x < n:
+        print(-1)
+        continue
+    
+    print(x-n+1,end=" ")
+    for j in range(1,n+1):
+        if j != x-n+1:
+            print(j,end=" ")
+    print(" ")
