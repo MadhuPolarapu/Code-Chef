@@ -1,0 +1,10 @@
+for t in range(int(input())):
+    n=int(input())
+    if n<=100:
+        print(n)
+    elif n>100 and n<=1000:
+        print(n-25)
+    elif n>1000 and n<=5000:
+        print(n-100)
+    else:
+        print(n-500)
