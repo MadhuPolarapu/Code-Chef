@@ -1,0 +1,10 @@
+for t in range(int(input())):
+    l=list(map(int,input().split()))
+    a=l[0]-l[2]
+    b=l[1]-l[3]
+    if a>b:
+        print("Second")
+    elif a<b:
+        print("First")
+    else:
+        print("Any")
