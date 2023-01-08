@@ -1,0 +1,9 @@
+l=[6,2,5,5,4,5,6,3,7,6]
+for t in range(int(input())):
+    a,b=map(int,input().split())
+    c=a+b
+    m=0
+    while(c):
+        m+=l[c%10]
+        c=c//10
+    print(m)
