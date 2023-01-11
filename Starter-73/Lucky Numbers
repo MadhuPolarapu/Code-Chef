@@ -1,0 +1,7 @@
+for t in range(int(input())):
+    n=input()
+    x='7'
+    if x in n:
+        print("YES")
+    else:
+        print("NO")
