@@ -1,0 +1,10 @@
+for _ in range(int(input())):
+    a,b,c,d=map(int,input().split())
+    x=max(a,b)
+    y=max(c,d)
+    if x<y:
+        print("P")
+    elif x==y:
+        print("TIE")
+    else:
+        print("Q")
