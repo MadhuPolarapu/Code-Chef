@@ -1,0 +1,8 @@
+for _ in range(int(input())):
+    a,b,c,d,e,f=map(int,input().split())
+    if (a==c and b==d) or (a==d and b==c):
+        print('1')
+    elif (a==e and b==f) or (a==f and b==e):
+        print('2')
+    else:
+        print('0')
